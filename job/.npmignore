@@ -1,0 +1,7 @@
+credentials.json
+Dockerfile
+.env
+.git
+k8s
+node_modules
+test

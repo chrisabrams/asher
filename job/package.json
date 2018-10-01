@@ -1,0 +1,21 @@
+{
+  "name": "@asher/job",
+  "version": "0.1.0-a1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec test/setup.js test/integration/*.js test/integration/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@asher/redis": "*",
+    "bull": "^3.4.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^6.0.0",
+    "mocha": "^5.2.0"
+  }
+}

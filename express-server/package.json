@@ -1,0 +1,19 @@
+{
+  "name": "@asher/express-server",
+  "version": "0.1.0-a4",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@asher/uuid": "0.1.0-a1",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "superagent": "^3.8.3"
+  }
+}
